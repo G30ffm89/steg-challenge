@@ -13,7 +13,8 @@ Used the strings command to expose the flag at the bottom of the output - flag{a
 - Opend the gif in ezgif.com
 - split the gif into frames
 - one of the frames contained the flag - flag{g3t_shr3k3d_sk1d}
-![image](https://github.com/user-attachments/assets/370f4f0c-da58-4b9e-8d76-4773130d81f2)
+
+
 ![image](https://github.com/user-attachments/assets/5f75bedd-4a62-4152-915b-522ce7eae8aa)
 
 
