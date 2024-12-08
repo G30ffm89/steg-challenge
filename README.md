@@ -5,24 +5,28 @@ Used the strings command to expose the flag at the bottom of the output - flag{a
 
 ## PCAP 1 
 - Opened the PCAP in wireshark 
-- Used the filter `http.content_type contains "image/png"` packet no `16681` was the only one 
-- File -> Export Objects -> HTTP -> Text Filter "PNG" -> export `meow.png`
-- Open the file to reveal the flag - flag{PC4P_4_FL4GZ}
+- Used the filter `http.content_type contains "image/png"` to see image packets
+- File -> Export Objects -> HTTP -> Text Filter "PNG" -> export `imagename.png`
+- Open the file to reveal the flag 
+![Screenshot From 2024-12-08 16-33-15](https://github.com/user-attachments/assets/683c6a92-1d70-4e94-a4b8-c07ccdb833e5)
+
+
 
 ## SHREK.GIF
 - Opend the gif in ezgif.com
 - split the gif into frames
 - one of the frames contained the flag - flag{g3t_shr3k3d_sk1d}
+![Screenshot From 2024-12-08 16-28-32](https://github.com/user-attachments/assets/1a40d73a-e141-4582-887f-8276d73c8677)
 
-
-![image](https://github.com/user-attachments/assets/5f75bedd-4a62-4152-915b-522ce7eae8aa)
 
 
 ## Steghide 1
  - Ran command `steghide -sf uwe.jpg`
- - Exported a file called `stage.ps1`
- - There was a base64 encoded string `ZmxhZ3tuMHRfdG9vX2g0cmRfcmlnaHQ/fQ==`
- - The docoded string in cyberchef revealed the flag - flag{n0t_too_h4rd_right?}
+ - Exported a file called 
+ - There was a base64 encoded string 
+ - The docoded string revealed the flag
+![Screenshot From 2024-12-08 16-38-49](https://github.com/user-attachments/assets/57fc7d2e-471f-4dd1-96f4-2f7a6875b035)
+
 
 ## Steghide 2 
  - Ran command `strings uwe2.jpg`
