@@ -14,4 +14,13 @@ Used the strings command to expose the flag at the bottom of the output - flag{a
 - split the gif into frames
 - one of the frames contained the flag - flag{g3t_shr3k3d_sk1d}
 
+## Steghide 1
+ - Ran command `steghide -sf uwe.jpg`
+ - Exported a file called `stage.ps1`
+ - There was a base64 encoded string `ZmxhZ3tuMHRfdG9vX2g0cmRfcmlnaHQ/fQ==`
+ - The docoded string in cyberchef revealed the flag - flag{n0t_too_h4rd_right?}
+
+## Hard 
+
+
 
