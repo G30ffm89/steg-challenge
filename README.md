@@ -9,7 +9,7 @@ Used the strings command to expose the flag at the bottom of the output
 ## PCAP 1 
 - Opened the PCAP in wireshark 
 - Used the filter `http.content_type contains "image/png"` to see image packets
-- Next exported the image `File -> Export Objects -> HTTP -> Text Filter "PNG" -> export`
+- Next exported the image `File -> Export Objects -> HTTP -> Text Filter "PNG"`
 - Open the file to reveal the flag 
 ![Screenshot From 2024-12-08 16-33-15](https://github.com/user-attachments/assets/683c6a92-1d70-4e94-a4b8-c07ccdb833e5)
 
@@ -39,7 +39,7 @@ Used the strings command to expose the flag at the bottom of the output
  - flipped the string and decoded it using base64 within the terminal
 ![Screenshot From 2024-12-08 16-44-19](https://github.com/user-attachments/assets/e7ae282f-48ca-428b-92f3-79d6698926ee)
  - the command returned a password
- - ran command `steghide extract -sf uwe2.jpg` and used the password to return flie
+ - ran command `steghide extract -sf uwe2.jpg` and used the password to return the source flie
  - the flag file contained a string 
  - using CyberChef the string was decoded first from base64 then using Bzip2 Decompress returning the flag
 ![Screenshot From 2024-12-08 16-46-31](https://github.com/user-attachments/assets/70046723-5b7e-4abd-82f9-492a6375f156)
