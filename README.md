@@ -3,6 +3,9 @@
 ## Dj Khaled
 Used the strings command to expose the flag at the bottom of the output
 
+![Screenshot From 2024-12-09 10-36-44](https://github.com/user-attachments/assets/bc2ab4a3-5a2c-4139-9bd7-0af669d11534)
+
+
 ## PCAP 1 
 - Opened the PCAP in wireshark 
 - Used the filter `http.content_type contains "image/png"` to see image packets
