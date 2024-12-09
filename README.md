@@ -19,6 +19,8 @@ Used the strings command to expose the flag at the bottom of the output
 - Opend the gif in ezgif.com
 - split the gif into frames
 - one of the frames contained the flag
+
+
 ![Screenshot From 2024-12-08 16-28-32](https://github.com/user-attachments/assets/1a40d73a-e141-4582-887f-8276d73c8677)
 
 
