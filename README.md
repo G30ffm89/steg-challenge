@@ -1,12 +1,12 @@
 # uwe-steg-challenge
 
 ## Dj Khaled
-Used the strings command to expose the flag at the bottom of the output - flag{alw4y3_l00k_4_5tr1n9s}
+Used the strings command to expose the flag at the bottom of the output
 
 ## PCAP 1 
 - Opened the PCAP in wireshark 
 - Used the filter `http.content_type contains "image/png"` to see image packets
-- File -> Export Objects -> HTTP -> Text Filter "PNG" -> export `imagename.png`
+- Next exported the image `File -> Export Objects -> HTTP -> Text Filter "PNG" -> export`
 - Open the file to reveal the flag 
 ![Screenshot From 2024-12-08 16-33-15](https://github.com/user-attachments/assets/683c6a92-1d70-4e94-a4b8-c07ccdb833e5)
 
@@ -30,7 +30,7 @@ Used the strings command to expose the flag at the bottom of the output - flag{a
 
 ## Steghide 2 
  - Ran command `strings uwe2.jpg`
- - below the file signature there was the line with a string to decode
+ - below the file signature there was the line with a string to decode it looked like base64 due to the two equals signs
  - flipped the string and decoded it using base64 within the terminal
 ![Screenshot From 2024-12-08 16-44-19](https://github.com/user-attachments/assets/e7ae282f-48ca-428b-92f3-79d6698926ee)
  - the command returned a password
